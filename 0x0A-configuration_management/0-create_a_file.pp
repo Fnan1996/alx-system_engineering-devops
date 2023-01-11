@@ -1,6 +1,6 @@
 # create a file in /tmp with specific requirements
 
-file { 'school':
+file { '/tmp':
   path    => '/tmp/school',
   mode    => '0744',
   owner   => 'www-data',
